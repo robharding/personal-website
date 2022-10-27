@@ -1,3 +1,6 @@
+import Link from "next/link";
+import Navbar from "../components/Navbar";
+
 import "../styles/globals.css";
 
 export default function RootLayout({
@@ -16,32 +19,7 @@ export default function RootLayout({
         <div className="h-screen items-center mx-4 md:mx-auto md:flex md:w-4/5 md:flex-col lg:w-2/5">
           <div className="pt-10"></div>
           <div className="px-2 md:px-5">
-            <nav className="flex items-center justify-between max-w-sm mx-auto capitalize">
-              <a
-                className="text-md md:text-lg mr-4 md:mr-6 font-medium"
-                href=""
-              >
-                Home
-              </a>
-              <a
-                className="text-md md:text-lg mr-4 md:mr-6 font-medium"
-                href=""
-              >
-                Blog
-              </a>
-              <a
-                className="text-md md:text-lg mr-4 md:mr-6 font-medium"
-                href=""
-              >
-                About
-              </a>
-              <a
-                className="text-md md:text-lg mr-4 md:mr-6 font-medium"
-                href=""
-              >
-                Contact
-              </a>
-            </nav>
+            <Navbar />
           </div>
           <main>{children}</main>
         </div>

@@ -13,7 +13,7 @@ export default function Home() {
       <h1 className="pt-6 text-5xl font-bold text-amber-300">Rob Harding</h1>
       <p className="mx-4 pt-1 text-xl text-center text-gray-300">
         A software engineer from Toronto. <br />
-        When I'm not skiing, I like to code.
+        When I&apos;m not skiing, I like to code.
         <br />
         <span className="text-gray-400 block mt-2">Located in Fernie, BC.</span>
       </p>
