@@ -9,6 +9,7 @@ export default function Home() {
         src="/img/profile.jpg"
         width={180}
         height={180}
+        priority
       />
       <h1 className="pt-6 text-5xl font-bold text-amber-300">Rob Harding</h1>
       <p className="mx-4 pt-1 text-xl text-center text-gray-300">
@@ -22,10 +23,10 @@ export default function Home() {
           <svg
             stroke="currentColor"
             fill="none"
-            stroke-width="2"
+            strokeWidth="2"
             viewBox="0 0 24 24"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             height="1em"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
@@ -37,10 +38,10 @@ export default function Home() {
           <svg
             stroke="currentColor"
             fill="none"
-            stroke-width="2"
+            strokeWidth="2"
             viewBox="0 0 24 24"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+            strokeLinecap="round"
+            strokeLinejoin="round"
             height="1em"
             width="1em"
             xmlns="http://www.w3.org/2000/svg"
